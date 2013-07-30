@@ -2,7 +2,7 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.1_03
+Version:          1.1.03
 Release:          1
 Summary:          Robust Trimmed Clustering
 Group:            Sciences/Mathematics
@@ -10,6 +10,7 @@ License:          GPLv3
 URL:              http://cran.r-project.org/web/packages/tclust/index.html
 Source0:          http://cran.r-project.org/src/contrib/tclust_1.1-03.tar.gz
 BuildRequires:    R-devel R-mvtnorm R-sn R-mclust R-cluster libblas-devel liblapack-devel
+Requires:    	  R-core R-mvtnorm R-sn R-mclust R-cluster
 
 %description
 Robust Trimmed Clustering
