@@ -7,7 +7,7 @@ Release:          1
 Summary:          Robust Trimmed Clustering
 Group:            Sciences/Mathematics
 License:          GPLv3
-URL:              http://cran.r-project.org/web/packages/tclust/index.html
+URL:              https://cran.r-project.org/web/packages/tclust/index.html
 Source0:          http://cran.r-project.org/src/contrib/tclust_1.1-03.tar.gz
 BuildRequires:    R-devel R-mvtnorm R-sn R-mclust R-cluster libblas-devel liblapack-devel
 Requires:    	  R-core R-mvtnorm R-sn R-mclust R-cluster
